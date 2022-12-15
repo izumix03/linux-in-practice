@@ -1,4 +1,7 @@
 ```shell
 docker build -t linux .
-docker run -it linux bash
+```
+
+```shell
+docker run -it -v $PWD/mount:/mount linux bash
 ```

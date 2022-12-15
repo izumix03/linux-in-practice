@@ -21,7 +21,8 @@ RUN apt-get install -y \
     jq \
     docker.io \
     containerd \
-    libvirt-daemon-system
+    libvirt-daemon-system \
+    strace
 
 # add sudo user
 RUN groupadd -g 1000 developer && \
